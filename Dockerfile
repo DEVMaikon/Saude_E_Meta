@@ -4,7 +4,8 @@ WORKDIR /app
 
 # instalar dependências
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm install
+RUN npm install -g nodemon
 
 # copiar código
 COPY . .
