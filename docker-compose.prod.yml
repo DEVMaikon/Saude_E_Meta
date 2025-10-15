@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  backend:
+    image: ${DOCKERHUB_USERNAME}/saudeemeta:latest
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - MONGO_URI=${MONGO_URI}
+      - JWT_SECRET=${JWT_SECRET}

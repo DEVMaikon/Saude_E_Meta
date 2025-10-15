@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:6
+    container_name: saudeemeta-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    build: .
+    container_name: saudeemeta-backend
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - MONGO_URI=mongodb://mongo:27017/saude_meta
+      - JWT_SECRET=${JWT_SECRET:-local_dev_secret}
+    depends_on:
+      - mongo
+
+volumes:
+  mongo-data:

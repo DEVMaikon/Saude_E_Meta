@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B5C4032DE0EB5A00079E4C /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5C4022DE0EB5A00079E4C /* AuthenticationManager.swift */; };
+		F5B5C4052DE0ECBA00079E4C /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5C4042DE0ECBA00079E4C /* UserProfileView.swift */; };
+		F5B5C4072DE0ED7B00079E4C /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5C4062DE0ED7B00079E4C /* FeedbackManager.swift */; };
+		F5B5C4092DE0EE8F00079E4C /* MoodChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B5C4082DE0EE8F00079E4C /* MoodChartView.swift */; };
+		F5BB6CAF2DDD58A8009EA6F0 /* SaudeEMetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CAE2DDD58A8009EA6F0 /* SaudeEMetaApp.swift */; };
+		F5BB6CB12DDD58A8009EA6F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CB02DDD58A8009EA6F0 /* ContentView.swift */; };
+		F5BB6CB32DDD58AC009EA6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BB6CB22DDD58AC009EA6F0 /* Assets.xcassets */; };
+		F5BB6CB62DDD58AC009EA6F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BB6CB52DDD58AC009EA6F0 /* Preview Assets.xcassets */; };
+		F5BB6CC02DDD58AC009EA6F0 /* SaudeEMetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CBF2DDD58AC009EA6F0 /* SaudeEMetaTests.swift */; };
+		F5BB6CCA2DDD58AC009EA6F0 /* SaudeEMetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CC92DDD58AC009EA6F0 /* SaudeEMetaUITests.swift */; };
+		F5BB6CCC2DDD58AC009EA6F0 /* SaudeEMetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CCB2DDD58AC009EA6F0 /* SaudeEMetaUITestsLaunchTests.swift */; };
+		F5BB6CD92DDD593C009EA6F0 /* BemVindoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CD82DDD593C009EA6F0 /* BemVindoView.swift */; };
+		F5BB6CDD2DDD59E9009EA6F0 /* AvaliacaoRiscoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CDC2DDD59E9009EA6F0 /* AvaliacaoRiscoView.swift */; };
+		F5BB6CE12DDD5A48009EA6F0 /* GraficosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CE02DDD5A48009EA6F0 /* GraficosView.swift */; };
+		F5BB6CE32DDD5A87009EA6F0 /* LembretesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CE22DDD5A87009EA6F0 /* LembretesView.swift */; };
+		F5BB6CE52DDD6151009EA6F0 /* MoodDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CE42DDD6151009EA6F0 /* MoodDiaryView.swift */; };
+		F5BB6CE72DDD618E009EA6F0 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CE62DDD618E009EA6F0 /* MoodEntry.swift */; };
+		F5BB6CE92DDD61C0009EA6F0 /* MoodStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB6CE82DDD61C0009EA6F0 /* MoodStorage.swift */; };
+		F5BE19F92DDEAD12005880C3 /* PerguntasWiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE19F82DDEAD12005880C3 /* PerguntasWiew.swift */; };
+		F5BE19FD2DDEAFA9005880C3 /* CanalEscutaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE19FC2DDEAFA9005880C3 /* CanalEscutaView.swift */; };
+		F5BE1A002DDEB43B005880C3 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = F5BE19FF2DDEB43B005880C3 /* SQLite */; };
+		F5BE1A022DDEB44F005880C3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE1A012DDEB44F005880C3 /* DatabaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5BB6CBC2DDD58AC009EA6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BB6CA32DDD58A8009EA6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BB6CAA2DDD58A8009EA6F0;
+			remoteInfo = SaudeEMeta;
+		};
+		F5BB6CC62DDD58AC009EA6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BB6CA32DDD58A8009EA6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BB6CAA2DDD58A8009EA6F0;
+			remoteInfo = SaudeEMeta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B5C4022DE0EB5A00079E4C /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		F5B5C4042DE0ECBA00079E4C /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		F5B5C4062DE0ED7B00079E4C /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		F5B5C4082DE0EE8F00079E4C /* MoodChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChartView.swift; sourceTree = "<group>"; };
+		F5BB6CAB2DDD58A8009EA6F0 /* SaudeEMeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaudeEMeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BB6CAE2DDD58A8009EA6F0 /* SaudeEMetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudeEMetaApp.swift; sourceTree = "<group>"; };
+		F5BB6CB02DDD58A8009EA6F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5BB6CB22DDD58AC009EA6F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BB6CB52DDD58AC009EA6F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5BB6CBB2DDD58AC009EA6F0 /* SaudeEMetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaudeEMetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BB6CBF2DDD58AC009EA6F0 /* SaudeEMetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudeEMetaTests.swift; sourceTree = "<group>"; };
+		F5BB6CC52DDD58AC009EA6F0 /* SaudeEMetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaudeEMetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BB6CC92DDD58AC009EA6F0 /* SaudeEMetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudeEMetaUITests.swift; sourceTree = "<group>"; };
+		F5BB6CCB2DDD58AC009EA6F0 /* SaudeEMetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudeEMetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5BB6CD82DDD593C009EA6F0 /* BemVindoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoView.swift; sourceTree = "<group>"; };
+		F5BB6CDC2DDD59E9009EA6F0 /* AvaliacaoRiscoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliacaoRiscoView.swift; sourceTree = "<group>"; };
+		F5BB6CE02DDD5A48009EA6F0 /* GraficosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficosView.swift; sourceTree = "<group>"; };
+		F5BB6CE22DDD5A87009EA6F0 /* LembretesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembretesView.swift; sourceTree = "<group>"; };
+		F5BB6CE42DDD6151009EA6F0 /* MoodDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryView.swift; sourceTree = "<group>"; };
+		F5BB6CE62DDD618E009EA6F0 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		F5BB6CE82DDD61C0009EA6F0 /* MoodStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodStorage.swift; sourceTree = "<group>"; };
+		F5BE19F82DDEAD12005880C3 /* PerguntasWiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerguntasWiew.swift; sourceTree = "<group>"; };
+		F5BE19FC2DDEAFA9005880C3 /* CanalEscutaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanalEscutaView.swift; sourceTree = "<group>"; };
+		F5BE1A012DDEB44F005880C3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BB6CA82DDD58A8009EA6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BE1A002DDEB43B005880C3 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB6CB82DDD58AC009EA6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB6CC22DDD58AC009EA6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5BB6CA22DDD58A8009EA6F0 = {
+			isa = PBXGroup;
+			children = (
+				F5BB6CAD2DDD58A8009EA6F0 /* SaudeEMeta */,
+				F5BB6CBE2DDD58AC009EA6F0 /* SaudeEMetaTests */,
+				F5BB6CC82DDD58AC009EA6F0 /* SaudeEMetaUITests */,
+				F5BB6CAC2DDD58A8009EA6F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BB6CAC2DDD58A8009EA6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB6CAB2DDD58A8009EA6F0 /* SaudeEMeta.app */,
+				F5BB6CBB2DDD58AC009EA6F0 /* SaudeEMetaTests.xctest */,
+				F5BB6CC52DDD58AC009EA6F0 /* SaudeEMetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BB6CAD2DDD58A8009EA6F0 /* SaudeEMeta */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB6CAE2DDD58A8009EA6F0 /* SaudeEMetaApp.swift */,
+				F5BB6CB02DDD58A8009EA6F0 /* ContentView.swift */,
+				F5BB6CB22DDD58AC009EA6F0 /* Assets.xcassets */,
+				F5BB6CB42DDD58AC009EA6F0 /* Preview Content */,
+				F5BB6CD82DDD593C009EA6F0 /* BemVindoView.swift */,
+				F5BB6CDC2DDD59E9009EA6F0 /* AvaliacaoRiscoView.swift */,
+				F5BB6CE02DDD5A48009EA6F0 /* GraficosView.swift */,
+				F5BB6CE22DDD5A87009EA6F0 /* LembretesView.swift */,
+				F5BB6CE42DDD6151009EA6F0 /* MoodDiaryView.swift */,
+				F5BB6CE62DDD618E009EA6F0 /* MoodEntry.swift */,
+				F5BB6CE82DDD61C0009EA6F0 /* MoodStorage.swift */,
+				F5BE19F82DDEAD12005880C3 /* PerguntasWiew.swift */,
+				F5BE19FC2DDEAFA9005880C3 /* CanalEscutaView.swift */,
+				F5BE1A012DDEB44F005880C3 /* DatabaseManager.swift */,
+				F5B5C4042DE0ECBA00079E4C /* UserProfileView.swift */,
+				F5B5C4062DE0ED7B00079E4C /* FeedbackManager.swift */,
+				F5B5C4082DE0EE8F00079E4C /* MoodChartView.swift */,
+			);
+			path = SaudeEMeta;
+			sourceTree = "<group>";
+		};
+		F5BB6CB42DDD58AC009EA6F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB6CB52DDD58AC009EA6F0 /* Preview Assets.xcassets */,
+				F5B5C4022DE0EB5A00079E4C /* AuthenticationManager.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5BB6CBE2DDD58AC009EA6F0 /* SaudeEMetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB6CBF2DDD58AC009EA6F0 /* SaudeEMetaTests.swift */,
+			);
+			path = SaudeEMetaTests;
+			sourceTree = "<group>";
+		};
+		F5BB6CC82DDD58AC009EA6F0 /* SaudeEMetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB6CC92DDD58AC009EA6F0 /* SaudeEMetaUITests.swift */,
+				F5BB6CCB2DDD58AC009EA6F0 /* SaudeEMetaUITestsLaunchTests.swift */,
+			);
+			path = SaudeEMetaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BB6CAA2DDD58A8009EA6F0 /* SaudeEMeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BB6CCF2DDD58AC009EA6F0 /* Build configuration list for PBXNativeTarget "SaudeEMeta" */;
+			buildPhases = (
+				F5BB6CA72DDD58A8009EA6F0 /* Sources */,
+				F5BB6CA82DDD58A8009EA6F0 /* Frameworks */,
+				F5BB6CA92DDD58A8009EA6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaudeEMeta;
+			packageProductDependencies = (
+				F5BE19FF2DDEB43B005880C3 /* SQLite */,
+			);
+			productName = SaudeEMeta;
+			productReference = F5BB6CAB2DDD58A8009EA6F0 /* SaudeEMeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5BB6CBA2DDD58AC009EA6F0 /* SaudeEMetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BB6CD22DDD58AC009EA6F0 /* Build configuration list for PBXNativeTarget "SaudeEMetaTests" */;
+			buildPhases = (
+				F5BB6CB72DDD58AC009EA6F0 /* Sources */,
+				F5BB6CB82DDD58AC009EA6F0 /* Frameworks */,
+				F5BB6CB92DDD58AC009EA6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BB6CBD2DDD58AC009EA6F0 /* PBXTargetDependency */,
+			);
+			name = SaudeEMetaTests;
+			productName = SaudeEMetaTests;
+			productReference = F5BB6CBB2DDD58AC009EA6F0 /* SaudeEMetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5BB6CC42DDD58AC009EA6F0 /* SaudeEMetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BB6CD52DDD58AC009EA6F0 /* Build configuration list for PBXNativeTarget "SaudeEMetaUITests" */;
+			buildPhases = (
+				F5BB6CC12DDD58AC009EA6F0 /* Sources */,
+				F5BB6CC22DDD58AC009EA6F0 /* Frameworks */,
+				F5BB6CC32DDD58AC009EA6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BB6CC72DDD58AC009EA6F0 /* PBXTargetDependency */,
+			);
+			name = SaudeEMetaUITests;
+			productName = SaudeEMetaUITests;
+			productReference = F5BB6CC52DDD58AC009EA6F0 /* SaudeEMetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BB6CA32DDD58A8009EA6F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F5BB6CAA2DDD58A8009EA6F0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F5BB6CBA2DDD58AC009EA6F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F5BB6CAA2DDD58A8009EA6F0;
+					};
+					F5BB6CC42DDD58AC009EA6F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F5BB6CAA2DDD58A8009EA6F0;
+					};
+				};
+			};
+			buildConfigurationList = F5BB6CA62DDD58A8009EA6F0 /* Build configuration list for PBXProject "SaudeEMeta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BB6CA22DDD58A8009EA6F0;
+			packageReferences = (
+				F5BE19FE2DDEB43B005880C3 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			productRefGroup = F5BB6CAC2DDD58A8009EA6F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BB6CAA2DDD58A8009EA6F0 /* SaudeEMeta */,
+				F5BB6CBA2DDD58AC009EA6F0 /* SaudeEMetaTests */,
+				F5BB6CC42DDD58AC009EA6F0 /* SaudeEMetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BB6CA92DDD58A8009EA6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BB6CB62DDD58AC009EA6F0 /* Preview Assets.xcassets in Resources */,
+				F5BB6CB32DDD58AC009EA6F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB6CB92DDD58AC009EA6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB6CC32DDD58AC009EA6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BB6CA72DDD58A8009EA6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BB6CE12DDD5A48009EA6F0 /* GraficosView.swift in Sources */,
+				F5BE19F92DDEAD12005880C3 /* PerguntasWiew.swift in Sources */,
+				F5BB6CB12DDD58A8009EA6F0 /* ContentView.swift in Sources */,
+				F5BE19FD2DDEAFA9005880C3 /* CanalEscutaView.swift in Sources */,
+				F5BB6CDD2DDD59E9009EA6F0 /* AvaliacaoRiscoView.swift in Sources */,
+				F5BB6CE92DDD61C0009EA6F0 /* MoodStorage.swift in Sources */,
+				F5BB6CE52DDD6151009EA6F0 /* MoodDiaryView.swift in Sources */,
+				F5B5C4072DE0ED7B00079E4C /* FeedbackManager.swift in Sources */,
+				F5B5C4052DE0ECBA00079E4C /* UserProfileView.swift in Sources */,
+				F5B5C4032DE0EB5A00079E4C /* AuthenticationManager.swift in Sources */,
+				F5B5C4092DE0EE8F00079E4C /* MoodChartView.swift in Sources */,
+				F5BB6CE32DDD5A87009EA6F0 /* LembretesView.swift in Sources */,
+				F5BE1A022DDEB44F005880C3 /* DatabaseManager.swift in Sources */,
+				F5BB6CD92DDD593C009EA6F0 /* BemVindoView.swift in Sources */,
+				F5BB6CE72DDD618E009EA6F0 /* MoodEntry.swift in Sources */,
+				F5BB6CAF2DDD58A8009EA6F0 /* SaudeEMetaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB6CB72DDD58AC009EA6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BB6CC02DDD58AC009EA6F0 /* SaudeEMetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB6CC12DDD58AC009EA6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BB6CCC2DDD58AC009EA6F0 /* SaudeEMetaUITestsLaunchTests.swift in Sources */,
+				F5BB6CCA2DDD58AC009EA6F0 /* SaudeEMetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5BB6CBD2DDD58AC009EA6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BB6CAA2DDD58A8009EA6F0 /* SaudeEMeta */;
+			targetProxy = F5BB6CBC2DDD58AC009EA6F0 /* PBXContainerItemProxy */;
+		};
+		F5BB6CC72DDD58AC009EA6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BB6CAA2DDD58A8009EA6F0 /* SaudeEMeta */;
+			targetProxy = F5BB6CC62DDD58AC009EA6F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5BB6CCD2DDD58AC009EA6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5BB6CCE2DDD58AC009EA6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BB6CD02DDD58AC009EA6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaudeEMeta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook-maikon934.SaudeEMeta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5BB6CD12DDD58AC009EA6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaudeEMeta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook-maikon934.SaudeEMeta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5BB6CD32DDD58AC009EA6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook-maikon934.SaudeEMetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaudeEMeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaudeEMeta";
+			};
+			name = Debug;
+		};
+		F5BB6CD42DDD58AC009EA6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook-maikon934.SaudeEMetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaudeEMeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaudeEMeta";
+			};
+			name = Release;
+		};
+		F5BB6CD62DDD58AC009EA6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook-maikon934.SaudeEMetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaudeEMeta;
+			};
+			name = Debug;
+		};
+		F5BB6CD72DDD58AC009EA6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook-maikon934.SaudeEMetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaudeEMeta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BB6CA62DDD58A8009EA6F0 /* Build configuration list for PBXProject "SaudeEMeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BB6CCD2DDD58AC009EA6F0 /* Debug */,
+				F5BB6CCE2DDD58AC009EA6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BB6CCF2DDD58AC009EA6F0 /* Build configuration list for PBXNativeTarget "SaudeEMeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BB6CD02DDD58AC009EA6F0 /* Debug */,
+				F5BB6CD12DDD58AC009EA6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BB6CD22DDD58AC009EA6F0 /* Build configuration list for PBXNativeTarget "SaudeEMetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BB6CD32DDD58AC009EA6F0 /* Debug */,
+				F5BB6CD42DDD58AC009EA6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BB6CD52DDD58AC009EA6F0 /* Build configuration list for PBXNativeTarget "SaudeEMetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BB6CD62DDD58AC009EA6F0 /* Debug */,
+				F5BB6CD72DDD58AC009EA6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5BE19FE2DDEB43B005880C3 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5BE19FF2DDEB43B005880C3 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5BE19FE2DDEB43B005880C3 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5BB6CA32DDD58A8009EA6F0 /* Project object */;
+}

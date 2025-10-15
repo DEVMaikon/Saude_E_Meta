@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  backend:
+    image: ${DOCKERHUB_USERNAME}/saudeemeta:staging
+    restart: unless-stopped
+    ports:
+      - "4100:4000" # exemplo: staging numa porta diferente
+    environment:
+      - PORT=4000
+      - MONGO_URI=${MONGO_URI}
+      - JWT_SECRET=${JWT_SECRET}
